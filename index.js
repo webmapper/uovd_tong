@@ -2,7 +2,7 @@
 //---------------------
 const map = new mapboxgl.Map({
   container: 'map', //Div id to place map in
-  style: 'style/utrechtovdtong.json', // style object
+  style: 'https://ta.webmapper.nl/wm/styles/utrechtovdtong.json', // style object
   zoom: 13.5,
   center: [5.12311, 52.08883],
   attributionControl: true,
